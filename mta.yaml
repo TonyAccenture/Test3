@@ -12,7 +12,7 @@ modules:
       - name: Test3-db-hdi-container
   - name: Test3-srv
     type: nodejs
-    path: srv
+    path: srv 
     parameters:
       memory: 512M
       disk-quota: 512M
